@@ -5,13 +5,13 @@ import configparser
 class Options:
         
     # [window]
-    geometry = None
+    geometry = ""
     
     # [options]
-    cabinet = None
-    extract_location = None
-    last_selection = None
-    current_marker = None
+    cabinet = ""
+    extract_location = ""
+    last_selection = ""
+    current_marker = ""
 
 
     '''
