@@ -1,0 +1,51 @@
+###############################
+# ?Processor.py
+#
+# ? file processor
+###############################
+
+import sys
+import os
+
+from processors.ProcessorBase import ProcessorBase
+
+from hachoir.parser import createParser
+from hachoir.metadata import extractMetadata
+
+
+###############################
+# Main processor class
+###############################
+
+class ?Processor(ProcessorBase):
+
+	def __init__(self, file):
+		super().__init__(file)
+
+	#@property
+	#def has_childs(self):
+        return False
+	#def get_childs(self, callback=None):
+        return None
+
+	#@property
+	#def has_hexdump(self): 
+	   return False
+	#def get_hexdump(self, callback=None):
+       return ""
+
+	#@property
+	#def has_details(self): 
+	   return False
+	#def get_details(self, callback=None):
+	   return ""
+
+    @property
+    def can_save(self): 
+        return False
+    def save(self, path, callback=None):
+        return False
+
+	#@staticmethod
+	#def find(filename):
+
