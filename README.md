@@ -2,8 +2,8 @@
 (c) 2017 SillyBits
 
 
-'DumpMyRideUI' allows for browsing and dumping contents of SyncMyRide update packages for Ford's SyncII
-(a.k.a. MyFord Touch, or short MFT).
+'DumpMyRideUI' allows for browsing, examining and dumping contents of SyncMyRide update packages for 
+Ford's SyncII (a.k.a. MyFord Touch, or short MFT).
 
 
 'DumpMyRideUI' is solely written in Python (v3.5 as of now) and uses TkInter for it's UI, so it should 
